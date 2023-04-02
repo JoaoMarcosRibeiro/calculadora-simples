@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Calculadora Simples</h1>
+  <div class="container">
+    <div class="calculator">
+      <input type="text" id="result" readonly>
+      <button onclick="addNumber('7')">7</button>
+      <button onclick="addNumber('8')">8</button>
+      <button onclick="addNumber('9')">9</button>
+      <button onclick="addOperator('+')" class="operator"><i class="fas fa-plus"></i></button>
+      <button onclick="addNumber('4')">4</button>
+      <button onclick="addNumber('5')">5</button>
+      <button onclick="addNumber('6')">6</button>
+      <button onclick="addOperator('-')" class="operator"><i class="fas fa-minus"></i></button>
+      <button onclick="addNumber('1')">1</button>
+      <button onclick="addNumber('2')">2</button>
+      <button onclick="addNumber('3')">3</button>
+      <button onclick="addOperator('*')" class="operator"><i class="fas fa-times"></i></button>
+      <button onclick="addNumber('0')">0</button>
+      <button onclick="clearDisplay()" class="clear"> <i class="fas fa-trash"></i></button>
+      <button onclick="calculate()" class="calculate"><i class="fas fa-equals"></i></button>
+      <button onclick="addOperator('/')" class="operator"><i class="fas fa-divide"></i></button>
+    </div>
+  </div>
+  <footer>
+    <p>Projetado e construído por João Marcos Ribeiro </p>
+    <p>Código-fonte disponível em <a href=""><i class="fa-brands fa-github fa-2xl" style="color: #ffff;"></i></a></p>
+  </footer>
+  
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/7aa63e62b3.js" crossorigin="anonymous"></script>
+</body>
+</html>
